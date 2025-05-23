@@ -1,0 +1,142 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+img.toplogo {
+    position: absolute;
+    top: 10px;
+    width: 5rem;
+    height: 5rem;
+    top: 1rem;
+    left: 1rem;
+}
+body {
+    
+      
+      background-color: #0A0C13;
+      background-image: linear-gradient(#0A0C13, #1a2650);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+      animation: backgroundfade 2s ease-in-out;
+    }
+    h1 {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      animation: fadeIn 2s ease-in-out;
+      animation-name: backgroundColorPalette;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    img.ExpLangImage {
+      width: 3rem;
+      height: 3rem;
+    }
+    @keyframes backgroundColorPalette {
+      0% {
+        color: #ee6055;
+      }
+      25% {
+        color: #60d394;
+      }
+      50% {
+        color: #aaf683;
+      }
+      75% {
+        color: #ffd97d;
+      }
+      100% {
+        color: #ff9b85;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+    p.connected {
+        display: inline-block;
+    }
+    iframe.display {
+      margin-bottom: 0.5rem;
+      display: inline-block;
+      border: none;
+      text-decoration: none;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: background-color 0.3s ease;
+    }
+    a.buttonheader {
+      font-size: 1rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #444;
+      top: 1rem;
+      left: 1rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-60px); }
+      to { opacity: 1; transform: translateY(-0px); }
+    }
+    h2.ExpHeader {
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 0.4rem;
+      padding-left: 1rem;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    li {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding: 0.2rem;
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+    }
+    header {
+      font-family: 'Helvetica Neue', sans-serif;
+      position: absolute;
+      top: 20px;
+      font-size: 0.8rem;
+      color: #848484;
+      align-items: center;
+      align-self: center;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+    a.titleExpHeader {
+      color: #ffffff;
+      
+    }
+    a {
+      font-family: 'Helvetica Neue', sans-serif;
+    }
