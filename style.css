@@ -37,10 +37,6 @@ body {
       font-size: 3rem;
       margin-bottom: 0.5rem;
       animation: fadeIn 2s ease-in-out;
-      animation-name: backgroundColorPalette;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
     }
     img.ExpLangImage {
       width: 3rem;
@@ -70,6 +66,8 @@ body {
     }
     p.connected {
         display: inline-block;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
     }
     iframe.display {
       margin-bottom: 0.5rem;
@@ -128,6 +126,7 @@ body {
       align-self: center;
     }
     footer {
+      font-family: 'Helvetica Neue', sans-serif;
       position: absolute;
       bottom: 10px;
       font-size: 0.8rem;
