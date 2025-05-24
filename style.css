@@ -106,7 +106,7 @@ a.button:hover {
   left: 1rem;
 }
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-60px); }
+  from { opacity: 0; transform: translateY(-50px); }
   to { opacity: 1; transform: translateY(-0px); }
 }
 h2.ExpHeader {
