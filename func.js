@@ -1,7 +1,7 @@
 window.onload = function() {
     const CurrentYear = new Date() .getFullYear()
     var Age = CurrentYear - 2006
-    document.getElementById("InfoText").textContent = "I am " + Age + " year old,"
+    document.getElementById("InfoText").textContent = "I am a " + Age + " year old,"
 }
 
 
